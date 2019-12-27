@@ -6,6 +6,8 @@ Patients suffering from severe paralysis are usually dependent on others for ass
 ## What it does
 The car would stream the video from the front camera in almost real-time, which allows the user to see the front view when moving. The user can turn the car to the right or left and forward it by gazing to the buttons on the screen. The system also incorporates a camera to track the eyes' pupil movement and an IMU sensor to robustly estimate where the user is looking at the screen. The information is used to control the car according to the view direction.
 
+![Smart Car with Camera onboard (left), IMU sensor capture headpose for process (right)](images/car_IMU.jpg)
+
 ## How we built it
 Hardware: We modified UCTRONICS Robot Car Kit which has a Raspberry-pi and an onboard Camera. We created our own Motor Driver from Arduino and Breadboard. The IMU sensor provides the absolute orientation of the user's head pose. It is attached elegantly to a glasses and sends the orientation to an Arduino. A Python program will process this raw information and estimate the point of view of users.
 
