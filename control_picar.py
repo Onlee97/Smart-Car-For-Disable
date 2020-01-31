@@ -9,6 +9,7 @@ GPIO.setup(11,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
 GPIO.setup(15,GPIO.OUT)
 
+# Add new comment to expose me plzzz
 # Get the curses window, turn off echoing of keyboard to screen, turn on
 # instant (no waiting) key response, and use special values for cursor keys
 screen = curses.initscr()
