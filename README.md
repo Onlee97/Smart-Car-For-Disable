@@ -6,7 +6,7 @@ Patients suffering from severe paralysis are usually dependent on others for ass
 ## What it does
 The car would stream the video from the front camera in almost real-time, which allows the user to see the front view when moving. The user can turn the car to the right or left and forward it by gazing to the buttons on the screen. The system also incorporates a camera to track the eyes' pupil movement and an IMU sensor to robustly estimate where the user is looking at the screen. The information is used to control the car according to the view direction.
 
-###Demo Video
+## Demo Video
 [![Watch the video](Images/thumbnail.jpg)](https://www.youtube.com/watch?v=Up2wYwDFijQ)
 
 ## How we built it
